@@ -1,0 +1,103 @@
+body{
+ background-color: #5997fe;
+ 
+}
+.Branco{
+    color: aliceblue;
+}
+#dadPage{
+    color: aliceblue;
+}
+#dadPage2{
+    color: aliceblue;
+}
+#Logo{    
+    border: solid;
+    border-radius: 10px;
+    border-color: aliceblue;
+}
+#ImgColeira{
+    width: 500px;
+    height: 500px;
+}
+#ImgErva{
+    width: 480px;
+    height: 480px;
+    
+}
+#coment{
+    padding: 2%;
+}
+
+.imagem{
+    height: 100%;
+    width: 100%;
+}
+
+#iFrete{
+    height: 5px;
+    width: 120px;
+}
+
+#iQntd{
+    height: 5px;
+    width: 40px;
+}
+
+.inProd{
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    height: 30px;
+    margin: 2px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+#carrinho{
+
+    width: 150px;
+    height: 150px;
+}
+#mnPage{
+    padding-top: 15px;
+    padding-left: 30px;
+}
+#qdProd1{
+    padding-top: 60px;
+}
+#Cc{
+    padding-left: 30px;   
+}
+#card1{
+    display: inline-block;
+    padding-top: 0px;
+}
+#card2{
+    display: inline-block;
+    padding: 1px;
+}
+#card3{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    font-size: 20px;
+    
+}
+#tProd{
+    font-size: 62px;
+}
+.frase{
+padding-top: 10px;
+}
+#stProd{
+    font-size: 40px; 
+}

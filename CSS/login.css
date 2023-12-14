@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap');
+
+:root {
+    --cor0: #5997ff;
+    --cor1: #2b303a;
+    --cor2: white;
+    --cor3: #7c7c7c9d;
+    --cor4: #D64933;
+    --cor5: #add8e6;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor0);
+    width: auto;
+    height: 100vh;
+}
+
+div{
+    background-color: var(--cor2);
+    border: 2px inset rgba(0, 0, 0, 0.39);
+
+    padding: 7px;
+    
+    text-align: center;
+}
+
+#iLogin{
+    border-radius: 20px;
+    margin: auto;
+    max-width: 430px;
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    width: auto;
+
+}
+
+form{
+    padding: 5px;
+}
+
+h1{
+    color: var(--cor3);
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 30px;
+    margin: auto;
+    text-shadow: 1px 1px 1px black;
+
+    width: 100px;
+}
+
+label{
+    font-weight: bold;
+
+    padding: 8px;
+}
+
+input{
+    border: 2px inset rgba(0, 0, 0, 0.521);
+    border-radius: 5px;
+    
+
+    padding: 8px;
+}
+
+#iEnviar{
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+#iEnviar:hover{
+    background-color: var(--cor0);
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+.iMemorizar{
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+}
+
+a{
+    color: black;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgba(175, 173, 173, 0.116);
+    border-radius: 10px;
+    color: var(--cor0);
+    font-size: 15px;
+
+    text-shadow: 1px 0px 0px  black;
+}
+
+input[type=submit]#iEnviar{
+    border: 1px inset rgba(0, 0, 0, 0.432);
+    font-size: 20px;
+    padding: 10px;
+}
+
+#lancamento{
+    background-color: #5997ff;
+    border: none;
+    color: rgb(175, 174, 174);
+    font-size: 20px;
+    font-family: 'Edu TAS Beginner', cursive;
+
+    position: fixed;
+
+    top: 80%;
+    left: 49%;
+
+    transform: translate(-50%, -49%);
+}

@@ -1,0 +1,32 @@
+tab1 [td] {
+    padding: 3px;
+    text-align: left;
+    width: 250px;
+}
+
+tab2 [td] {
+    padding-left: 10px;
+    padding: 3px;
+    text-align: left; 
+}
+
+table {
+    border-radius: 10px;
+    background-color: gray;
+    
+}
+
+th {
+    text-align: center;
+    background-color: black;
+    border-top-right-radius: 10px;
+}
+
+td {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.txtProd {
+    font-size: 24px;
+}

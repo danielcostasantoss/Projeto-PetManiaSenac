@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/petmania.css">
+    <link rel="stylesheet" href="../CSS/table.css">
+    <title>Produto - PetMania</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body id="dadPage">
+    <center>
+        <header id="upPage">
+            <a href="/homepage.html"><img id="Logo" src="../Imagens/LogoPetMania.png" alt="PetMania"
+                    width="30%"></a><br>
+        </header><br>
+        <div id="card1">
+            <div id="card2">
+                <img id="ImgColeira" src="../Imagens/ImgProdutos/ColeiraCouro2.0.png" alt="Coleira de couro marrom">
+            </div>
+
+            <div id="card3" class="Branco">
+                <h1 id="tProd" class="Branco">Coleira de couro - Marrom</h1>
+                <h2 id="stProd" class="Branco">Vendido por: PetMania</h2>
+                <h1 id="vProd" class="Branco">R$ 20,99<sub>(a unidade)</sub></h1>
+
+                <label for="bTam1, bTam2, bTam3" id="lTam" class="txtProd">Escolha um tamanho:</label>
+                <button id="bTam1" class="btn btn-light">P</button>
+                <button id="bTam2" class="btn btn-light">M</button>
+                <button id="bTam3" class="btn btn-light">G</button><br>
+
+                <button type="button" class="btn btn-light">-</button>
+                <input type="number" placeholder="Qntd" id="iQntd" class="inProd">
+                <button type="button" class="btn btn-light">+</button><br><br>
+
+                <label for="iFrete" id="lFrete" class="txtProd">Calcular o frete:</label>
+                <input type="number" placeholder="Digite seu CEP" id="iFrete" class="inProd">
+                <button type="button" class="btn btn-light">Buscar</button><br><br>
+
+                <button type="button" class="btn btn-light">Adicionar ao carrinho</button>
+                <button type="button" class="btn btn-light">Comprar com um click</button>
+            </div><br>
+        </div>
+
+        <div id="dadPage">
+            <form action="">
+                <table class="tbProd" id="dadPage">
+                    <th colspan="2">Informações</th>
+                    <tr>
+                        <td>Comprimento</td>
+                        <td>P: 27 a 37cm; M: 44 a 55cm; G: 45 a 68cm</td>
+                    </tr>
+                    <tr>
+                        <td>Marca</td>
+                        <td>Zidog</td>
+                    </tr>
+                    <tr>
+                        <td>Cor do produto</td>
+                        <td>Marrom e dourado</td>
+                    </tr>
+                </table>
+            </form><br>
+
+            <form action="">
+                <table class="tbProd" id="dadPage">
+                    <th colspan="2">Avaliações</th>
+                    <tr>
+                        <td>Cristiano Ronaldo</td>
+                        <td id="coment">
+                            Excelente material, resistente e lindo. Recomendo esse produto.
+                            <br>Com toda certeza compraria de novo. Comprei tamanho M, fiz
+                            <br> uns ajustes e ficou ótimo no meu cachorro.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="coment">Iker Casillas</td>
+                        <td>
+                            Produto com ótimo acabamento e muito resistente, atingindo <br>
+                            minhas expectativas. Adorei, recomendo.
+                    </tr>
+                    <tr>
+                        <td>Mesut Ozil</td>
+                        <td id="coment">
+                            Achei muito linda essa coleira, simples e fácil de usar e o
+                            <br> material de couro é muito bom para caminhadas com meu
+                            <br>filhotes agitados.
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+</body>
+</center>
+
+</html>

@@ -1,0 +1,31 @@
+:root{
+    --cor0: #5997fe;
+    --cor1: white;
+    --cor2: #575757;
+}
+
+body{
+    background-color: #575757;
+    color: black;
+}
+
+#fundo{
+    background-color: white;
+    
+    max-width: 1000px;
+    margin: auto;
+}
+
+.design{
+    padding: 25px;
+    max-width: 800px;
+    margin: auto;
+}
+
+#fundologo{
+    background-color: var(--cor0);
+    height: 180px;
+    margin: auto;
+    text-align: center;
+    width: auto;
+}

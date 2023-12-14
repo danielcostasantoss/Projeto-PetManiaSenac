@@ -1,0 +1,157 @@
+:root {
+    --cor0: #5997ff;
+    --cor1: #2b303a;
+    --cor2: white;
+    --cor3: #7c7c7c9d;
+    --cor4: #D64933;
+    --cor5: #add8e6;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+    width: auto;
+}
+section{
+    text-align: center;
+}
+
+#fundo {
+    background-color: var(--cor0);
+    margin: auto;
+    max-width: auto;
+    min-width: 480px;
+}
+
+#header {
+    background-color: var(--cor0);
+    margin: auto;
+    position: relative;
+}
+
+header {
+    height: 90px;
+}
+
+#divpesquisa {
+    position: fixed;
+    left: 150px;
+    top: 40px;
+}
+
+#pesquisa > input {
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 500px;
+    padding: 0.7em;
+}
+
+#pesquisa{
+    position: relative;
+
+    left: 250px;
+    top: 5px;
+}
+
+#navegar {
+    display: inline-block;
+}
+
+table{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+}
+
+th{
+    font-weight: bold;
+}
+
+.tableNav {
+    display: block;
+    position: fixed;
+}
+
+#botaodeacesso {
+    display: inline-block;
+    position: absolute;
+    right: 85px;
+}
+
+#nav {
+    background-color: var(--cor0);
+    display: inline;
+    position: relative;
+    top: 45px;
+    width: auto;
+}
+
+.nav {
+    font-variant: small-caps;
+    font-size: 18px;
+    position: relative;
+    right: 0px;
+}
+
+a {
+    color: white;
+    padding: 7px;
+}
+
+.espaco{
+    margin: 3px;
+    width: 200px;
+}
+
+td > a:hover {
+    background-color: rgba(255, 255, 255, 0.171);
+    border-radius: 10px;
+    color: #2b303a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover { 
+    color: #2b303a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#Logo{
+    
+    padding: 0;
+}
+
+#produtos {
+    background-color: var(--cor0);
+    position: absolute;
+
+    left: 210px;
+    top: 200px;
+
+    width: auto;
+    min-width: 400px;
+}
+
+.cardProd {
+    font-size: 20px;
+    display: inline-block;
+    margin: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#blackfriday{
+    border-radius: 15px;
+    border: 2px 1px solid white;
+}
+
+#img{
+    position: absolute;
+    top: 4px;
+    left: 460px;
+}
+
+.imagem{
+    margin-left: -6px;
+}
