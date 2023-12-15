@@ -1,0 +1,78 @@
+:root {
+    --cor0: #5997ff;
+    --cor1: #2b303a;
+    --cor2: white;
+    --cor3: #7c7c7c9d;
+    --cor4: #D64933;
+    --cor5: #add8e6;
+}
+
+body{
+    background-color: grey;
+}
+
+.fundoBody{
+    background-color: var(--cor0);
+    width: auto;
+}
+
+#divpesquisa {
+    position: absolute;
+    left: 150px;
+    top: 40px;
+}
+
+#pesquisa > input {
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 500px;
+    padding: 0.7em;
+}
+
+#pesquisa{
+    position: relative;
+
+    left: 250px;
+    top: 5px;
+}
+
+#botaodeacesso {
+    color: white;
+    display: inline-block;
+    position: absolute;
+    top: 48px;
+    right: 85px;
+}
+
+a{
+    color: var(--cor2);
+    text-decoration: none;
+}
+
+.cardProd{
+    background-color: var(--cor2);
+    border-radius: 15px;
+    display: block;
+    margin: 5px;
+}
+
+.layoutImg{
+    border-radius: 15px;
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.158);
+    
+    display: block;
+    
+    padding: 10px;
+    margin: 10px;
+}
+
+.imgProd{
+    display: inline-block;
+}
+
+.descricaoProd{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+}
