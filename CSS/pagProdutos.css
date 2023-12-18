@@ -60,7 +60,7 @@ a{
     background-color: var(--cor2);
     border-radius: 15px;
     display: block;
-    margin: 5px;
+    margin: 10px;
 }
 
 .layoutImg{
@@ -122,7 +122,7 @@ td{
 
 .recomendacoes{
     display: inline-block;
-    margin: 10px;
+    margin: 12px;
 }
 
 #txtRecomendacoes{
