@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,28 +17,74 @@
     <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap.css.map">
     <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap.min.css">
     <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap.min.css.map">
-    <link rel="stylesheet" href= "../CSS/petmania.css">
+    <link rel="stylesheet" href="../CSS/petmania.css">
+
+    <script async src="JavaScript/carrinho.js"></script>
+
     <title>Produto - PetMania</title>
 </head>
-<body id="dadPage"> <center>
+
+<body id="dadPage">
     <header id="upPage">
         <a href="homepage.html"><img id="Logo" src="../Imagens/LogoPetMania.png" alt="PetMania" width="15%"></a><br>
     </header>
 
-    <div id="qdProd1">
-        <div >
-            <img id="carrinho" src="../Imagens/ImgProdutos/carrinho-removebg-preview.png" alt="Coleira de couro marrom">
-        </div>
+    <main class="main-section">
+        <section class="container normal-section">
+            <h2 class="section-title">Carrinho</h2>
 
-        <div  id="mnPage" class="Branco"> 
-            <h3 id="tProd" class="Branco">Seu carrinho está vazio</h3>
-            <p id="stProd" class="Branco">Para continuar comprando, navegue pelas <br>
-                categorias e faça uma busca por produtos.</p>
-        </div>
-    </div>                
-        <div id="Cc">
-            <a href="../homepage.html"><button type="button" class="btn btn-light"> Continuar comprando</button></a>
-        </div>
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th class="table-head-item first-col">Item</th>
+                        <th class="table-head-item second-col">Preço</th>
+                        <th class="table-head-item third-col">Quantidade</th>
+                    </tr>
+                </thead>
 
+                <tbody>
+                 
+                    <tr class="linha-produto">
+                        <td class="product-identification">
+                            <img src="images/produto2.png" alt="Miniatura" class="imagem-produto">
+                            <strong class="titulo-produto">Miniatura</strong>
+                        </td>
+                        <td>
+                            <span class="preco-produto">R$69,90</span>
+                        </td>
+                        <td>
+                            <input type="" value="2" min="0" class="qtd-produto">
+                            <button type="button" class="remover-produtos">Remover</button>
+                        </td>
+                    </tr>
+                    <tr class="linha-produto">
+                        <td class="product-identification">
+                            <img src="images/poster3.png" alt="Poster 3" class="imagem-produto">
+                            <strong class="titulo-produto">Poster 3</strong>
+                        </td>
+                        <td>
+                            <span class="preco-produto">R$19,99</span>
+                        </td>
+                        <td>
+                            <input type="number" value="1" min="0" class="qtd-produto">
+                            <button type="button" class="remover-produtos">Remover</button>
+                        </td>
+                    </tr>-->
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td colspan="3" class="linha-calculo-total">
+                            <strong>Total</strong>
+                            <span>R$0,00</span>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <button type="button" class="confirmar-compra">Finalizar Compra</button>
+        </section>
+    </main>
 </body>
+
 </html>

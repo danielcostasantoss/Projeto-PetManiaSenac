@@ -26,14 +26,15 @@
         .corbotao {
             background-color: #5997ff;
             border: none;
+            font-size: 18px;
+            font-weight: bold;
         }
 
         .corbotao:hover {
-            background-color: #7c7c7c9d;
+            background-color: #5997ff;
             border: none;
             color: rgb(255, 255, 255);
             text-decoration: none;
-            text-shadow: 1px 1px rgba(255, 255, 255, 0.432);
         }
     </style>
 </head>
@@ -43,7 +44,8 @@
         <div id="header">
             <header>
                 <div id="fundologo">
-                    <a href="homepage.html"><img class="logo" src="Imagens/LogoPetMania.png" alt="PetMania" width="400px"></a>
+                    <a href="homepage.html"><img class="logo" src="Imagens/LogoPetMania.png" alt="PetMania"
+                            width="400px"></a>
                 </div>
                 <div id="divpesquisa">
                     <div id="pesquisa">
@@ -53,108 +55,91 @@
                 </div>
             </header>
         </div>
+        <br>
         <div id="nav">
-            <nav>
+            <nav class="nav">
                 <div id="navegar">
-                    <table class="nav tableNav">
-                        <tr>
-                            <th><strong>Filtros</strong></th>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link " href="/Filtros/prodCachorro.html">cachorros</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="/Filtros/prodGatos.html">gatos</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="/Filtros/prodPassaros.html">pássaros</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="/Filtros/prodPeixes.html">peixes</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="/Filtros/prodOutros.html">outros</a></td>
-                        </tr>
-                    </table>
+                    <nav class="nav">
+                        <a class="nav-link" href="Filtros/prodCachorro.html">cachorros</a>
+                        <a class="nav-link" href="Filtros/prodGatos.html">gatos</a>
+                        <a class="nav-link" href="Filtros/prodPassaros.html">pássaros</a>
+                        <a class="nav-link" href="Filtros/prodPeixes.html">peixes</a>
+                        <a class="nav-link" href="Filtros/prodOutros.html">outros</a>
+                    </nav>
                 </div>
                 <div id="botaodeacesso">
-                    <button type="button" class="btn btn-primary corbotao"><a href="login.html">Login</a></button>
-                    <button type="button" class="btn btn-primary corbotao"><a
-                            href="dadosCadastrais.html">Cadastro</a></button>
-                    <button type="button" class="btn btn-primary corbotao"><a
-                            href="carrinhoPET.html">Carrinho</a></button>
+                    <button type="button" class="btn btn-primary corbotao"><a class="nav-link" href="login.html">login</a></button>
+                    <button type="button" class="btn btn-primary corbotao"><a class="nav-link"
+                            href="dadosCadastrais.html">cadastro</a></button>
+                    <button type="button" class="btn btn-primary corbotao"><a class="nav-link" href="carrinho.html">carrinho</a></button>
                 </div>
             </nav>
         </div>
+        <br><br>
         <div id="produtos">
             <section>
-
-                <div>
-
-                    <div class="card cardProd" style="width: 18rem;">
-                        <a href="/Produtos/prodCaminhaAzul.html">
-                            <img class="card-img-top imagem" src="Imagens/ImgProdutos/CaminhaAzul.png"
-                                alt="Imagem de capa do card" width="300px">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">Caminha Azul</h5>
-                            <p class="card-text">R$31,90 (uni)</p><br>
-                            <a href="/Produtos/prodCaminhaAzul.html" class="btn btn-primary espaco">Comprar</a>
-                            <a href="#" class="btn btn-primary espaco adcAoCarrinho">Adicionar ao carrinho</a>
-                        </div>
+                <div class="card cardProd" style="width: 21rem;">
+                    <a href="/Produtos/prodCaminhaAzul.html">
+                        <img class="card-img-top imagem" src="Imagens/ImgProdutos/CaminhaAzul.png"
+                            alt="Imagem de capa do card" width="300px">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Caminha Azul</h5>
+                        <p class="card-text">R$31,90</p><br>
+                        <a href="/Produtos/prodCaminhaAzul.html" class="btn btn-primary espaco">comprar</a>
+                        <a href="#" class="btn btn-primary espaco adc-ao-carrinho">adicionar ao carrinho</a>
                     </div>
+                </div>
 
-                    <div class="card cardProd" style="width: 18rem;">
-                        <a href="/Produtos/prodNeonatos.html">
-                            <img class="card-img-top imagem" src="Imagens/ImgProdutos/neonatos.png"
-                                alt="Imagem de capa do card" width="300px">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">Neonatos</h5>
-                            <p class="card-text">R$285,00 (pct)</p><br>
-                            <a href="Produtos/prodNeonatos.html" class="btn btn-primary espaco">Comprar</a>
-                            <a href="#" class="btn btn-primary espaco adcAoCarrinho">Adicionar ao carrinho</a>
-                        </div>
+                <div class="card cardProd" style="width: 21rem;">
+                    <a href="/Produtos/prodNeonatos.html">
+                        <img class="card-img-top imagem" src="Imagens/ImgProdutos/neonatos.png"
+                            alt="Imagem de capa do card" width="300px">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Neonatos</h5>
+                        <p class="card-text">R$285,00 (pct)</p><br>
+                        <a href="Produtos/prodNeonatos.html" class="btn btn-primary espaco">Comprar</a>
+                        <a href="#" class="btn btn-primary espaco adc-ao-carrinho">Adicionar ao carrinho</a>
                     </div>
+                </div>
 
-                    <div class="card cardProd" style="width: 18rem;">
-                        <a href="/Produtos/prodColeiraCouro.html">
-                            <img class="card-img-top imagem" src="Imagens/ImgProdutos/ColeiraCouro2.0.png"
-                                alt="Imagem de capa do card" width="300px">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">Coleira de couro</h5>
-                            <p class="card-text">R$30,90 (uni)</p><br>
-                            <a href="Produtos/prodColeiraCouro.html" class="btn btn-primary espaco">Comprar</a>
-                            <a href="#" class="btn btn-primary espaco adcAoCarrinho">Adicionar ao carrinho</a>
-                        </div>
+                <div class="card cardProd" style="width: 21rem;">
+                    <a href="/Produtos/prodColeiraCouro.html">
+                        <img class="card-img-top imagem" src="Imagens/ImgProdutos/ColeiraCouro2.0.png"
+                            alt="Imagem de capa do card" width="300px">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Coleira de couro</h5>
+                        <p class="card-text">R$30,90 </p><br>
+                        <a href="Produtos/prodColeiraCouro.html" class="btn btn-primary espaco">comprar</a>
+                        <a href="#" class="btn btn-primary espaco adc-ao-carrinho">adicionar ao carrinho</a>
                     </div>
+                </div>
 
-
-                    <div class="card cardProd" style="width: 18rem;">
-                        <a href="/Produtos/prodGaiola.html">
-                            <img class="card-img-top imagem" src="Imagens/ImgProdutos/GaiolaAve.png"
-                                alt="Imagem de capa do card" width="300px">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">Gaiola para ave</h5>
-                            <p class="card-text">R$145,00 (uni)</p><br>
-                            <a href="/Produtos/prodGaiola.html" class="btn btn-primary espaco">Comprar</a>
-                            <a href="#" class="btn btn-primary espaco adcAoCarrinho">Adicionar ao carrinho</a>
-                        </div>
+                <div class="card cardProd" style="width: 21rem;">
+                    <a href="/Produtos/prodGaiola.html">
+                        <img class="card-img-top imagem" src="Imagens/ImgProdutos/GaiolaAve.png"
+                            alt="Imagem de capa do card" width="300px">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Gaiola para ave</h5>
+                        <p class="card-text">R$145,00 </p><br>
+                        <a href="/Produtos/prodGaiola.html" class="btn btn-primary espaco">comprar</a>
+                        <a href="#" class="btn btn-primary espaco adc-ao-carrinho">adicionar ao carrinho</a>
                     </div>
+                </div>
 
-                    <div class="card cardProd" style="width: 18rem;">
-                        <a href="/Produtos/prodErvaCatnip.html">
-                            <img class="card-img-top imagem" src="Imagens/ImgProdutos/ErvaCatnip.png"
-                                alt="Imagem de capa do card" width="300px">
-                        </a>
-                        <div class="card-body">
-                            <h5 class="card-title">Erva Catnip</h5>
-                            <p class="card-text">R$10,50 (uni)</p><br>
-                            <a href="/Produtos/prodErvaCatnip.html" class="btn btn-primary espaco">Comprar</a>
-                            <a href="#" class="btn btn-primary espaco adcAoCarrinho">Adicionar ao carrinho</a>
-                        </div>
+                <div class="card cardProd" style="width: 21rem;">
+                    <a href="/Produtos/prodErvaCatnip.html">
+                        <img class="card-img-top imagem" src="Imagens/ImgProdutos/ErvaCatnip.png"
+                            alt="Imagem de capa do card" width="300px">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Erva Catnip</h5>
+                        <p class="card-text">R$10,50 </p><br>
+                        <a href="/Produtos/prodErvaCatnip.html" class="btn btn-primary espaco">comprar</a>
+                        <a href="#" class="btn btn-primary espaco adc-ao-carrinho">adicionar ao carrinho</a>
                     </div>
                 </div>
 
