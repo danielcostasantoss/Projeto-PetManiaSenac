@@ -1,56 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<meta charset="utf-8">
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap-grid.css">
+    <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap-grid.css.map">
+    <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap-grid.min.css.map">
+    <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap-reboot.css">
+    <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap-reboot.css.map">
+    <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap-reboot.min.css.map">
+    <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap.css">
+    <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap.css.map">
+    <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="../Pasta BootStrap/CSS/bootstrap.min.css.map">
+    <link rel="stylesheet" href= "../CSS/petmania.css">
+    <title>Produto - PetMania</title>
 </head>
-<body>
-	<nav class="navbar navbar-default">
-	  <div class="container-fluid">
-	    <div class="navbar-header">
-	      <a id="navTitle" class="navbar-brand" href="index.html"></a>
-	    </div>
-	  </div>
-	</nav>
+<body id="dadPage"> <center>
+    <header id="upPage">
+        <a href="homepage.html"><img id="Logo" src="../Imagens/LogoPetMania.png" alt="PetMania" width="15%"></a><br>
+    </header>
 
-	<div class="container-fluid">
-		<div class="form-inline">
-			<div class="form-group">
-				<input type="text" class="form-control" id="desc" placeholder="Description">
-			</div>
-			<div class="form-group">
-				<input type="text" class="form-control" id="amount" placeholder="Amount">
-			</div>
-			<div class="form-group">
-				<input type="text" class="form-control" id="value" placeholder="Value">
-			</div>
-			<span id="btnUpdate" style="display: none;">
-				<span id="inputIDUpdate"></span>
-				<button onclick="updateData();" class="btn btn-default">Save</button>
-				<button onclick="resetForm();" class="btn btn-default">Cancel</button>
-			</span>
-			<span id="btnAdd">
-				<button onclick="addData();" class="btn btn-default">Add</button>
-				<button onclick="resetForm();" class="btn btn-default">Reset</button>
-				<button onclick="deleteList();" class="btn btn-default">Delete list</button>
-			</span>
-		</div>
-        
-		<div id="errors" style="display: none;"></div>
+    <div id="qdProd1">
+        <div >
+            <img id="carrinho" src="../Imagens/ImgProdutos/carrinho-removebg-preview.png" alt="Coleira de couro marrom">
+        </div>
 
-		<table id="listTable" class="table">
-		
-		</table>
-	</div>
+        <div  id="mnPage" class="Branco"> 
+            <h3 id="tProd" class="Branco">Seu carrinho está vazio</h3>
+            <p id="stProd" class="Branco">Para continuar comprando, navegue pelas <br>
+                categorias e faça uma busca por produtos.</p>
+        </div>
+    </div>                
+        <div id="Cc">
+            <a href="../homepage.html"><button type="button" class="btn btn-light"> Continuar comprando</button></a>
+        </div>
 
-	<nav class="navbar navbar-default navbar-fixed-bottom">
-		<div class="container">
-			<h4 class="text-center text-success">Total: <span id="totalValue">$ 0,00</span></h4>
-		</div>
-	</nav>
-
-	<script type="text/javascript" src="Carrinho/JavaScript/config.js"></script>
-	<script type="text/javascript" src="Carrinho/JavaScript/main.js"></script>
 </body>
 </html>
