@@ -84,6 +84,34 @@ a{
     position: absolute;
 }
 
+.alterar-qtd{
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 0 6px 0 6px;
+    
+}
+
+.buscar-cep{
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+}
+
+.alterar-qtd:hover,.buscar-cep:hover, .comprar-prod:hover{
+    background-color: rgba(128, 128, 128, 0.514);
+}
+
+.comprar-prod{
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 0 5px 0 5px;
+    padding: 10px;
+}
+
 #divTabelas{
     display: inline-block;
     margin: 10px;
@@ -91,26 +119,6 @@ a{
     position: absolute;
     right: 0px;
     top: 270px;    
-}
-
-table{
-    background-color: var(--cor2);
-    border-radius: 15px;
-    display: block;
-    margin: 5px;
-    
-}
-
-th{
-    background-color: var(--cor3);
-    border-radius: 15px;
-    padding: 7px;
-    text-align: center;
-}
-
-td{
-    border-radius: 15px;
-    padding: 7px;
 }
 
 .infoProd{
@@ -123,6 +131,11 @@ td{
 .recomendacoes{
     display: inline-block;
     margin: 12px;
+}
+
+.card-prod-recomendado{
+    text-decoration: none;
+    color: black;
 }
 
 #txtRecomendacoes{

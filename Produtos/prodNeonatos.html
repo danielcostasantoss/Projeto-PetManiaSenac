@@ -35,10 +35,10 @@
                 </div>
             </div>
             <div id="botaodeacesso">
-                <button type="button" class="btn btn-primary corbotao"><a href="login.html">Login</a></button>
+                <button type="button" class="btn btn-primary corbotao"><a href="../login.html">Login</a></button>
                 <button type="button" class="btn btn-primary corbotao"><a
-                        href="dadosCadastrais.html">Cadastro</a></button>
-                <button type="button" class="btn btn-primary corbotao"><a href="carrinhoPET.html">Carrinho</a></button>
+                        href="../dadosCadastrais.html">Cadastro</a></button>
+                <button type="button" class="btn btn-primary corbotao"><a href="../carrinho.html">Carrinho</a></button>
             </div>
         </header>
         <div class="cardProd">
@@ -50,100 +50,73 @@
                 <h1 id="tProd">40 Und Neonatos A - Camundongo Congelado</h1>
                 <h2 id="stProd">Vendido por: PetMania</h2>
                 <h1 id="vProd">R$285,00<sub> (por pacote)</sub></h1><br>
-                <button>-</button>
+                <button class="alterar-qtd">-</button>
                 <input type="number" placeholder="Qntd" id="iQntd" class="inProd">
-                <button>+</button><br><br>
+                <button class="alterar-qtd">+</button><br><br>
                 <label for="iFrete" id="lFrete" class="txtProd">Calcular o frete:</label>
                 <input type="number" placeholder="Digite seu CEP" id="iFrete" class="inProd">
-                <button>Buscar</button><br><br>
-                <button>Adicionar ao carrinho</button>
-                <button>Comprar com um click</button>
+                <button class="buscar-cep">Buscar</button><br><br>
+                <button class="comprar-prod">Adicionar ao carrinho</button>
+                <button class="comprar-prod">Comprar com um click</button>
             </div>
-            <!-- 
-            <div id="divTabelas">
-                <table class="infoProd">
-                    <th colspan="2">Informações</th>
-                    <tr>
-                        <td>Marca</td>
-                        <td>Neonatos</td>
-                    </tr>
-                    <tr>
-                        <td>Composição</td>
-                        <td>Material orgânico</td>
-                    </tr>
-                </table>
-                <br>
-                <table class="infoProd">
-                    <th colspan="3 ">Avaliações</th>
-                    <tr>
-                        <td>Julio Furch</td>
-                        <td>*****</td>
-                        <td id="coment">
-                            muito bom,minha jibóia adorou.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Marcos Leonardo</td>
-                        <td>*****</td>
-                        <td id="coment">
-                            Excelente produto, tenho tartaruga e elas adoraram.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>Julio César</td>
-                        <td>**</td>
-                        <td id="coment">
-                            caro de mais para um produto sem qualidade, odiei.
-                        </td>
-                    </tr>
-                </table>
-            </div>-->
         </div>
 
         <h1 id="txtRecomendacoes">O que recomendamos para você:</h1>
 
-        <div class="card recomendacoes" style="width: 18rem;">
-            <img class="card-img-top" src="/Imagens/ImgProdutos/arranhador.png" alt="Imagem de capa do card" >
-            <div class="card-body">
-                <p class="card-text">Arranhador TV Tubo de Papelão</p>
-                <p class="card-text">R$ 129,99 <sub><br>(a unidade)</sub></p><br>
+        <a class="card-prod-recomendado" href="">
+            <div class="card recomendacoes" style="width: 18rem;">
+                <img class="card-img-top" src="/Imagens/ImgProdutos/arranhador.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <p class="card-text">Arranhador TV Tubo de Papelão</p>
+                    <p class="card-text">R$ 129,99 </p><br>
+                </div>
             </div>
-        </div>
-        <div class="card recomendacoes" style="width: 18rem;">
-            <img class="card-img-top" src="/Imagens/ImgProdutos/bastaopassaros.png" alt="Imagem de capa do card">
-            <div class="card-body">
-                <p class="card-text">Bastão Petz para Papagaios 200g</p>
-                <p class="card-text">R$ 40,99 <sub><br>(a unidade)</sub></p><br>
+        </a>
+        <a class="card-prod-recomendado" href="">
+            <div class="card recomendacoes" style="width: 18rem;">
+                <img class="card-img-top" src="/Imagens/ImgProdutos/bastaopassaros.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <p class="card-text">Bastão Petz para Papagaios 200g</p>
+                    <p class="card-text">R$ 40,99 </p><br>
+                </div>
             </div>
-        </div>
-        <div class="card recomendacoes" style="width: 18rem;">
-            <img class="card-img-top" src="/Imagens/ImgProdutos/CaminhaAzul.png" alt="Imagem de capa do card">
-            <div class="card-body">
-                <p class="card-text">Caminha Azul</p>
-                <p class="card-text">R$ 31,90 <sub><br>(a unidade)</sub></p><br>
+        </a>
+        <a class="card-prod-recomendado" href="">
+            <div class="card recomendacoes" style="width: 18rem;">
+                <img class="card-img-top" src="/Imagens/ImgProdutos/CaminhaAzul.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <p class="card-text">Caminha Azul</p>
+                    <p class="card-text">R$ 31,90 </p><br>
+                </div>
             </div>
-        </div>
-        <div class="card recomendacoes" style="width: 18rem;">
-            <img class="card-img-top" src="/Imagens/ImgProdutos/comidapeixe.png" alt="Imagem de capa do card">
-            <div class="card-body">
-                <p class="card-text">Ração Nutribetta para Peixes 12g</p>
-                <p class="card-text">R$ 13,99 <sub><br>(a unidade)</sub></p><br>
+        </a>
+        <a class="card-prod-recomendado" href="">
+            <div class="card recomendacoes" style="width: 18rem;">
+                <img class="card-img-top" src="/Imagens/ImgProdutos/comidapeixe.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <p class="card-text">Ração Nutribetta para Peixes 12g</p>
+                    <p class="card-text">R$ 13,99 </p><br>
+                </div>
             </div>
-        </div>
-        <div class="card recomendacoes" style="width: 18rem;">
-            <img class="card-img-top" src="/Imagens/ImgProdutos/GaiolaAve.png" alt="Imagem de capa do card">
-            <div class="card-body">
-                <p class="card-text">Gaiola para Aves c/ Teto de plático</p>
-                <p class="card-text">R$ 149,00 <sub><br>(a unidade)</sub></p><br>
+        </a>
+        <a class="card-prod-recomendado" href="">
+            <div class="card recomendacoes" style="width: 18rem;">
+                <img class="card-img-top" src="/Imagens/ImgProdutos/GaiolaAve.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <p class="card-text">Gaiola para Aves c/ Teto de plático</p>
+                    <p class="card-text">R$ 149,00 </p><br>
+                </div>
             </div>
-        </div>
-        <div class="card recomendacoes" style="width: 18rem;">
-            <img class="card-img-top" src="/Imagens/ImgProdutos/RaçãoPeq.png" alt="Imagem de capa do card">
-            <div class="card-body">
-                <p class="card-text">Ração filhotes - Arroz e frango</p>
-                <p class="card-text">R$ 166,00 <sub><br>(a unidade)</sub></p><br>
+        </a>
+        <a class="card-prod-recomendado" href="">
+            <div class="card recomendacoes" style="width: 18rem;">
+                <img class="card-img-top" src="/Imagens/ImgProdutos/RaçãoPeq.png" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <p class="card-text">Ração filhotes - Arroz e frango</p>
+                    <p class="card-text">R$ 166,00 </p><br>
+                </div>
             </div>
-        </div>
+        </a>
     </div>
     </div>
 </body>
