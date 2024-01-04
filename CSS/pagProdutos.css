@@ -43,13 +43,24 @@ body{
     top: 5px;
 }
 
-#botaodeacesso {
-    color: white;
-    display: inline-block;
-    position: absolute;
-    top: 48px;
-    right: 85px;
+#botadeacesso{
+    
 }
+.cor-botao{
+    float: auto;
+    display: flex;
+    
+    background-color: var(--cor0);
+    border: none;
+    box-shadow: 1px 7px #5996ff13;
+    color: white;
+    
+}
+
+.cor-botao:hover{
+    background-color: #5996ff00;;
+}
+
 
 a{
     color: var(--cor2);
@@ -85,6 +96,7 @@ a{
 }
 
 .alterar-qtd{
+    box-shadow: 1px 7px #5996ff2d;
     border: none;
     border-radius: 20px;
     font-weight: bold;
@@ -95,6 +107,7 @@ a{
 .buscar-cep{
     border: none;
     border-radius: 20px;
+    box-shadow: 1px 7px #5996ff2d;
     font-weight: bold;
     margin: 0 5px 0 5px;
     padding: 10px;
@@ -107,6 +120,7 @@ a{
 .comprar-prod{
     border: none;
     border-radius: 15px;
+    box-shadow: 1px 7px #5996ff2d;
     font-weight: bold;
     margin: 0 5px 0 5px;
     padding: 10px;
@@ -122,7 +136,8 @@ a{
 }
 
 .infoProd{
-    background-color: var(--cor2);
+    background-color: var(--cor0);
+    border: var(--cor0);
     border-radius: 15px;
     display: block;
     margin: 5px;
