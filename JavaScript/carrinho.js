@@ -72,17 +72,7 @@ function adicionarAoCarrinho(event) {
 
     novaLinhaProd.innerHTML =
     `
-    <td class="product-identification">
-    <img src="${imgProd}" alt="${nomeProd}" class="imagem-produto">
-    <strong class="titulo-produto">${nomeProd}</strong>
-     </td>
-     <td>
-    <span class="preco-produto">${precoProd}</span>
-     </td>
-     <td>
-    <input type="number" value="1" min="0" class="qtd-produto">
-    <button type="button" class="remover-produtos">Remover</button>
-    </td>
+    
     `
 
     const corpoTabela = document.querySelector(".cart-table tbody")
